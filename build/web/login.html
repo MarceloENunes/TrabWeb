@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>spotify</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="assets/css/home.css">
+        <link rel="stylesheet" href="assets/css/Navigation-Clean1.css">
+        <link rel="stylesheet" href="assets/css/spotify.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+
+    <body>
+        <div class="container container-login container-logo">
+            <div class="row" id="logo-row">
+                <div class="col-md-12 text-center" style="padding:0px;"><img src="assets/img/spotify-logo.jpg"></div>
+            </div>
+        </div>
+        <div class="container container-login container-login-corpo">
+            <div class="row">
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <form action="SignIn" method="post" id="SignForm">
+                        <input class="form-control input-form" type="text" name="username" placeholder="Username or email adress"><span class="error-message"> </span>
+                        <input class="form-control input-form" type="text" name="password" placeholder="Password"><span class="error-message"> </span>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-md-6" style="background-color:rgb(255,255,255);">
+                   
+                </div>
+                <div class="col-md-12 col-md-6" style="background-color:rgb(255,255,255);">
+                    <button class="btn btn-default btn-green btn-login" type="submit">log in</button>
+                </div>
+            </div>
+            <div class="row text-center spotify-anchor-green">
+                <div class="col-md-12"><span><a href="https://www.spotify.com/br/password-reset/">Forgot your username or password?</a> </span></div>
+                <div class="col-md-12"><span>Don't have an account? </span><a href="/SpotifyWeb/SignUp">Sign Up</a></div>
+            </div>
+        </div>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+
+</html>

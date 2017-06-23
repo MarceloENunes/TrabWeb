@@ -1,0 +1,68 @@
+#body-home {
+  font-family:Circular,Helvetica,Arial,sans-serif;
+  background-image:url("//d2c87l0yth4zbw-2.global.ssl.fastly.net/i/home/bg-albums.png");
+  background-image:url("//d2c87l0yth4zbw-2.global.ssl.fastly.net/i/home/bg-albums.png"), linear-gradient(to right,#eb01a5, #5b0b62);
+}
+
+.jumbotron {
+  background-color:transparent;
+}
+
+.jumbotron .container {
+}
+
+.main-nav-itens {
+  font-size:16px;
+  line-height:24px;
+}
+
+.navbar.navbar-default.navbar-fixed-top.navigation-clean {
+  background-color:rgba(45,44,44,0.6);
+  display:inline;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  background-size:100%;
+}
+
+.navbar-default .navbar-toggle {
+  border-style:none;
+  align-content:center;
+}
+
+.jumbotron {
+  display:block;
+}
+
+#navbar-brand-spotify {
+  padding:0 0 0 0;
+  margin:0;
+}
+
+.navbar-nav > li {
+  font-size:16px;
+  font-weight:700;
+  line-height:24px;
+  box-sizing:border-box;
+}
+
+#main-nav {
+  min-height:40px;
+}
+
+#navbar-brand-spotify {
+  height:50px;
+  margin:auto;
+}
+
+@media (max-width:767px) {
+  #navbar-brand-spotify {
+    height:40px;
+    margin:auto;
+  }
+}
+
+.navbar-inverse .navbar-toggle {
+  border-style:none;
+}
+

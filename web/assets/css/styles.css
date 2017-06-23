@@ -1,0 +1,136 @@
+#logo {
+  padding:0;
+  border-style:solid;
+  border-width:0 0 1px;
+  border-color:Gainsboro;
+  background-repeat:no-repeat;
+}
+
+#form {
+  padding:0 0 0;
+  background-size:cover;
+  display:inline-block;
+}
+
+.btn {
+  font-size:14px;
+  line-height:1;
+  border-radius:500px;
+  padding:18px 48px 16px;
+  transition-property:background-color,border-color,color,box-shadow,filter;
+  transition-duration:.3s;
+  border-width:0;
+  letter-spacing:2px;
+  min-width:160px;
+  text-transform:uppercase;
+  white-space:normal;
+  text-align:center;
+  vertical-align:middle;
+  cursor:pointer;
+  background-image:none;
+  border:1px solid transparent;
+}
+
+.btn-facebook {
+  color:#fff;
+  background-color:#3b5998;
+}
+
+#formulario {
+}
+
+#form {
+  max-width:500px;
+  width:50%;
+  display:block;
+  align-content:center;
+  align-items:center;
+}
+
+@media (max-width:650px) {
+  #form {
+    width:100%;
+  }
+}
+
+#formulario {
+  background-color:transparent;
+  opacity:1;
+}
+
+@media (max-width:767px) {
+  #logo-spotify {
+    width:50%;
+  }
+}
+
+@media (max-width:991px) {
+  #logo-spotify {
+    width:30%;
+  }
+}
+
+#logo-spotify {
+  max-width:200px;
+  width:30%;
+}
+
+.h2, h2 {
+  font-size:18px;
+  font-weight:900;
+  line-height:1.2;
+  margin:0 0 .5em;
+  box-sizing:border-box;
+}
+
+.line-thru:after {
+}
+
+h5 span {
+  padding:0 1px;
+}
+
+button, input, select, textarea {
+  width:100%;
+}
+
+form {
+  margin-bottom:10px;
+}
+
+.form-control {
+  margin-bottom:Opx;
+}
+
+.btn-green {
+  color:#fff;
+  background-color:#1db954;
+}
+
+text-field {
+}
+
+.text-field {
+  margin-bottom:10px;
+}
+
+.error-message {
+  color:red;
+}
+
+#container-navbar {
+  padding:10px;
+}
+
+.list-spotify-white a {
+  color:white;
+}
+
+.input-form {
+  margin:0px 0px 10px 0px;
+}
+
+.spotify-anchor-green a {
+  color:#1db954;
+}
+

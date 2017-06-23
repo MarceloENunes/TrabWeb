@@ -1,0 +1,187 @@
+#brand-spotify {
+}
+
+#navbar-spotify {
+  border-style:none;
+  padding:0;
+  margin:0;
+  background-color:transparent;
+}
+
+#container-navbar {
+  background-color:rgb(0,0,0);
+}
+
+#body-spotify {
+  background-color:black;
+  background-image:linear-gradient(#212c39,#121e3d 50%,#000);
+}
+
+#brand-spotify {
+  margin:0;
+  padding:0;
+}
+
+#toggle-spotify {
+  width:10%;
+}
+
+#content-account {
+  background-image:url(../../assets/img/jumbotron.jpg);
+}
+
+.item-menu-lateral {
+  width:100%;
+}
+
+.navbar-toggle.collapsed.toggle-spotify {
+  width:10%;
+}
+
+#content-account, #menu-lateral-account {
+  border-radius:0px;
+  border-style:none;
+  border-width:0px;
+}
+
+.footer-logo {
+  background-size:cover;
+}
+
+img {
+  width:132px;
+}
+
+#body-spotify {
+  font-family:Circular,Helvetica,Arial,sans-serif;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+  font-weight:700;
+  letter-spacing:-.01em;
+  margin:1em 0;
+  font-size:59px;
+  color:#f8f8f8;
+  line-height:1;
+  letter-spacing:-.05em;
+}
+
+.btn-blue-spotify {
+  color:#ffffff;
+  background-color:#7d1acb;
+  border:1px solid #f6a7c2;
+}
+
+.button-pink {
+  color:#f32fa6;
+  background-color:#ffcdd2;
+  border:1px solid #f6a7c2;
+}
+
+.h4, h4 {
+  color:#919496;
+  font-size:12px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+.navbar-traparent-spotify {
+  width:100%;
+  background-color:rgba(0,0,0,.6);
+  padding:1% 2%;
+  position:fixed;
+}
+
+.black-container {
+  background-color:black;
+  width:100%;
+  padding:10% 2%;
+}
+
+.navbar-traparent-spotify {
+  padding:1% 1%;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+  width:100%;
+}
+
+#menu-lateral-account {
+  padding:0px;
+  margin:0px;
+}
+
+.btn-green-account {
+  margin:10px 0;
+  padding:10px !important;
+  width:100%;
+}
+
+.box-upload {
+  padding:0px;
+  margin:0px;
+}
+
+.col-md-6 {
+  background:rgb(241,241,248);
+}
+
+#mainrow {
+  margin:0px;
+}
+
+#main-column {
+  padding:0px;
+}
+
+.container-account {
+  background:rgb(241,241,248);
+}
+
+.col-md-4 {
+}
+
+.jumbotron-account {
+  background-color:rgb(255,255,255);
+}
+
+.btn-facebook {
+  transition:background-color .15s ease,border-color .15s ease,color .15s ease;
+  border-width:0;
+  letter-spacing:1.2px;
+  min-width:130px;
+  text-transform:uppercase;
+  white-space:normal;
+}
+
+.container-login {
+  padding:0 35%;
+  width:100%;
+}
+
+.btn-login {
+  margin:20px 0;
+  padding:10px !important;
+}
+
+#logo-row {
+  margin:10%;
+}
+
+.container-logo {
+  border-style:solid;
+  border-width:0px 0px 1px 0px;
+  border-color:rgb(129,133,169);
+}
+
+img {
+  width:50%;
+  min-width:70px;
+}
+
+@media (max-width:767px) {
+  .container-login-corpo {
+    padding:0 5%;
+  }
+}
+
